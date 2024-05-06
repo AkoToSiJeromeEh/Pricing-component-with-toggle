@@ -77,7 +77,7 @@ function App() {
   ));
   return (
     <>
-      <main className=" flex flex-col gap-10 items-center justify-center  p-[2rem] Tablet:p-[2rem_10rem_2rem_10rem]   
+      <main className=" flex flex-col gap-10 items-center justify-center p-[0.5rem]  Mobile:p-[2rem] Tablet:p-[2rem_10rem_2rem_10rem] mt-5   Mobile:mt-0 
 ">
         <div>
           <h1 className="text-[1.7rem] text-Very-light-grayish-blue">Our Pricing</h1>

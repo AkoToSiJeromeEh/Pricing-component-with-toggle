@@ -48,11 +48,11 @@ p, h1, h2, h3, h4, h5, h6 {
 .card:hover {
   background: linear-gradient(112deg, #1B1A55 6.31%, #070F2B);
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 375px) {
   body {
     background: url(./assets/bg-top.svg) no-repeat ;
-    background-position-x: 270px;
-    background-position-y: -80px;
+    background-position-x: 160px;
+    background-position-y: -40px;
     background-color: #070F2B;
   }
 }

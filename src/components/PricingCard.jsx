@@ -9,7 +9,7 @@ export const PricingCard = ({ type, price, benefits, isToggle }) => {
       className={` shadow-sm shadow-Light-grayish-blue text-Very-light-grayish-blue  flex items-center flex-col gap-7 justify-center w-full p-8 card  ${
         type.includes("professional")
           ? "  h-[500px] self-center    rounded-md  border-2 border-Very-light-grayish-blue"
-          : `  h-fit self-center border-2 ${type.includes('basic') ? ' border-l-2 Tablet:border-r-0' : ' border-l-2 Tablet:border-l-0'} border-Very-light-grayish-blue ${
+          : `  h-fit self-center border-2 ${type.includes('basic') ? ' border-r-2 Tablet:border-r-0' : ' border-l-2  Tablet:border-l-0'} border-Very-light-grayish-blue ${
               type.includes("basic") ? "rounded-l-md" : "rounded-r-md"
             }`
       } `}
@@ -19,7 +19,7 @@ export const PricingCard = ({ type, price, benefits, isToggle }) => {
       </div>
       <div className=" text-Gradient-2">
         <span className="text-4xl me-1 align-middle">$</span>
-        <h1 className="text-6xl inline-block align-middle ">
+        <h1 className=" text-4xl  Mobile:text-6xl inline-block align-middle ">
           {isToggle ? (
             <AnimatedNumber
             value={price}
